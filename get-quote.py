@@ -2,9 +2,12 @@ def main():
  
   print("Keep it logically awesome.")
 
-  # f = open("./quotes.txt")
-  # quotes = f.readlines()
-  # f.close()
+  f = open("./quotes.txt")
+  for lines in f:
+    quotes = lines.readlines()
+    print(quotes)
+  
+  f.close()
 
   # print(quotes)
 
