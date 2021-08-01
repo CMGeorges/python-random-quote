@@ -4,7 +4,7 @@ def main():
 
   f = open("./quotes.txt")
   for lines in f:
-    quotes = lines.readlines()
+    quotes = lines
     print(quotes)
   
   f.close()
